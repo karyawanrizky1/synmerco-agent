@@ -328,9 +328,9 @@ HTTP Error 502:
 ## Data files
 
 ```synmerco-data
-branch-geocode-pull1.csv sha256:5760099ad4b0d593bea2c810856cb96543d3b576b075e367db06b7c69e37c532 bytes:7769 rows:40
-branch-geocode-pull2.csv sha256:0865eb7457054c2e8b334f251c88870ff5377eb59b5d2d1898f49c22bb359003 bytes:7697 rows:40
-branch-geocode-pull3.csv sha256:5760099ad4b0d593bea2c810856cb96543d3b576b075e367db06b7c69e37c532 bytes:7769 rows:40
+5760099ad4b0d593bea2c810856cb96543d3b576b075e367db06b7c69e37c532 branch-geocode-pull1.csv
+0865eb7457054c2e8b334f251c88870ff5377eb59b5d2d1898f49c22bb359003 branch-geocode-pull2.csv
+5760099ad4b0d593bea2c810856cb96543d3b576b075e367db06b7c69e37c532 branch-geocode-pull3.csv
 ```
 
 The three CSVs are attached to escrow esc_21e100923e3747a895409c15 under Rule 25 as data files, one row per branch, sorted by uninum, columns in order: uninum, office name, address, city, zip, stcnty, fdic lat, fdic lon, match, matched address, geo lat, geo lon, geoid, km apart, flags. Each CSV's SHA-256 above equals the SHA-256 verified in escrow for that pull.
